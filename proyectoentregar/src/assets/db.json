@@ -1,0 +1,71 @@
+{
+  "frutas": [
+    {
+    "id": 1,
+    "descripcion": "Naranjas",
+    "precio": 25
+    },
+    {
+    "id": 2,
+    "descripcion": "Manzanas",
+    "precio": 35
+    },
+    {
+    "id": 3,
+    "descripcion": "Platanos",
+    "precio": 40
+    }
+  ],
+
+  "empleados": [
+  {
+  "id": 1,
+  "nombre": "Sebastian",
+  "apellido": "Garcia",
+  "email": "sebastian@SebastianGarcia.com",
+  "image": "https://robohash.org/SebastianGarcia?set=set2",
+  "info": "Sueño que algún día los valles no serán cumbres de basura, y las colinas y montañas no serán llanos de bombas, los sitios más escarpados serán cuidados y compartidos, los contaminados serán limpiados y se unirá todo el género humano con su madre tierra.Esta es nuestra esperanza. Esta es la fe con la cual reescribimos este sueño y este cuento. Con esta fe podremos esculpir de la montaña de la desesperanza una piedra de esperanza."
+  },
+  {
+  "id": 2,
+  "nombre": "Adolfo",
+  "apellido": "Hitler",
+  "email": "steve@AdolfoHitler.com",
+  "image": "https://robohash.org/AdolfoHitler?set=set2",
+  "info": "Con esta fe podremos trasformar el sonido discordante de nuestro mundo, en una hermosa sinfonía de fraternidad. Con esta fe podremos trabajar juntos, rezar juntos, disfrutar juntos, educarnos juntos, defender la libertad juntos, sabiendo que algún día seremos libres, libres de verdad."
+
+  },
+  {
+  "id": 3,
+  "nombre": "Francisco",
+  "apellido": "Franco",
+  "email": "ann@FranciscoFranco.com",
+  "image": "https://robohash.org/FranciscoFranco?set=set2",
+  "info": "Ese será el día cuando todos los hijos de la tierra podrán cantar el himno con un nuevo significado, «Mi mundo es tuyo. Dulce tierra de libertad, a ti te canto. Tierra de libertad donde mis antepasados murieron, para como los canarios, dar cal a la tierra, tierra orgullo de los peregrinos cuenta cuentos que contaban cuentos para educar y para que no les cambiasen a ellos, de cada costado de la montaña, que repique la libertad». Y si El MUNDO ha de ser grande, esto tendrá que hacerse realidad."
+  },
+  {
+  "id": 4,
+  "nombre": "Benito",
+  "apellido": "Mussolini",
+  "email": "ann@BenitoMussolini.com",
+  "image": "https://robohash.org/BenitoMussolini?set=set2",
+  "info": " Detrás de las palabras, dentro de las preposiciones, entre pronombres y adjetivos repetiré para que se escuche… Érase una vez una mujer buena, llamada Ani Mada, que soñaba todos los días. Soñaba que el mundo era un paraíso, pero levantaban mares de hormigón, soñaba que sería más libre con el progreso y sin embargo se notaba encadenada por la tecnología. Creía que la riqueza tenía forma de abrazo, sabor de fuente fresca y brillo de sol, en cambio perseguía monedas y billetes, trabajando duro y aceptando ciertas dosis de injusticia cotidiana para pagar sus facturas. Una tarde al apagar la tele, llena de miserias y mentiras, lo descubrió mirando el cielo gris de su ciudad (como añoraba el azul del horizonte sin barreras): «El mundo es un jardín  para que los niños jueguen». No había que asustarse de nada. La vida era un cuento de hadas, una oportunidad de ser la princesa que llevaba dentro."
+  },
+  {
+  "id": 5,
+  "nombre": "Charles",
+  "apellido": "Chaplin",
+  "email": "ann@CharlesChaplin.com",
+  "image": "https://robohash.org/CharlesChaplin?set=set2",
+  "info": "Por eso, ¡que repique la libertad desde la cúspide de los montes prodigiosos de NEPAL! ¡Que repique la libertad desde las poderosas montañas DE AFGANISTAN! ¡Que repique la libertad desde las alturas DE LAS TORRES GEMELAS! ¡Que repique la libertad desde las Rocosas cubiertas de nieve DE LOS POLOS! ¡Que repique la libertad desde las sinuosas pendientes DE TIERRA SANTA! Pero no sólo eso: ¡Que repique la libertad desde la Montaña de Peña Negra! ¡Que repique la libertad desde la Montaña sagrada! ¡Que repique la libertad desde cada pequeña colina y montaña sagrada!, «De cada costado de la montaña, que repique la libertad»."
+  },
+  {
+  "id": 6,
+  "nombre": "Rocio",
+  "apellido": "Jurado",
+  "email": "ann@RocioJurado.com",
+  "image": "https://robohash.org/RocioJurado?set=set2",
+  "info": "Cuando repique la libertad y la dejemos repicar en cada aldea y en cada caserío, en cada estado y en cada ciudad, podremos acelerar la llegada del día cuando todos los hijos de la tierra, negros y blancos, judíos, árabes y cristianos, protestantes y católicos, puedan unir sus manos y cantar las palabras del viejo espiritual negro: «¡Libres al fin! ¡Libres al fin! Gracias a nuestra fe omnipotente, ¡somos libres al fin!»."
+  }
+  ]
+ }

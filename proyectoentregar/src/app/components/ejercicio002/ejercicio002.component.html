@@ -1,0 +1,13 @@
+<div class="container mt-2 shadow-lg rounded p-2">
+  <h3 class="my-3">Listado de post desde API REST</h3>
+  <div class="list-group my-3">
+  <a href="#" class="list-group-item list-group-item-action" *ngFor="let ent of entradas">
+  <div class="d-flex w-100 justify-content-between">
+  <h5 class="mb-1">{{ ent.title }}</h5>
+  <small>3 days ago</small>
+  </div>
+  <p class="mb-1">{{ ent.body }}</p>
+  <small>{{ ent.title }}</small>
+  </a>
+  </div>
+ </div>

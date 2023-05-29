@@ -1,0 +1,12 @@
+
+<div class="container mt-2 shadow-lg rounded p-2">
+  <h3 class="my-3">Listado de post desde API REST con imagenes</h3>
+  <div class="row p-3 justify-content-center">
+  <div class="list-group my-3 col-6">
+  <a routerLink="/detalle/{{e.id}}" routerLinkActive="active" class="list-group-item listgroup-item-action" *ngFor="let e of empleados">
+  <div class="d-flex w-100 justify-content-between">
+  <h5 class="mb-1">{{e.nombre}}&nbsp;<small>{{e.apellido}}</small></h5>
+  <img src={{e.image}} class="img-thumbnail rounded" alt="..." width="100" height="100">
+  </div>
+  </a>
+</div>

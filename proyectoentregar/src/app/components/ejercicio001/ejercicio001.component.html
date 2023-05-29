@@ -1,0 +1,57 @@
+<div class="container mt-3">
+  <h2>CRUD local. Datos locales. Sin BD</h2>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Email</th>
+        <th>Edad</th>
+        <th>Idioma</th>
+        <th>Opciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let u of users">
+        <th>{{u.ID}}</th>
+        <th>{{u.Nombre}}</th>
+        <th>{{u.Email}}</th>
+        <th>{{u.Edad}}</th>
+        <th>{{u.Idioma}}</th>
+        <th>
+          <button (click)="seleccionar(u)" class="btn btn-info">Seleccionar</button>
+          <button (click)="borrar(u.ID)" class="btn btn-danger">Borrar</button>
+        </th>
+      </tr>
+    </tbody>
+  </table>
+  <h2>FORMULARIO DE INSERCION Y ACTUALIZACION</h2>
+    <div class="row">
+      <div class="form-group col  d-inline-block">
+        <label for="id">ID:</label>
+        <input type="number" class="form-control" id="id" placeholder="0" [(ngModel)]="user.ID">
+      </div>
+      <div class="form-group col  d-inline-block">
+        <label for="Email">Email:</label>
+        <input type="email" class="form-control" id="Email" [(ngModel)]="user.Email">
+      </div>
+      <div class="form-group col  d-inline-block">
+        <label for="Idioma">Idioma:</label>
+        <input type="text" class="form-control" id="Idioma" [(ngModel)]="user.Idioma">
+      </div>
+    </div>
+    <div class="row">
+      <div class="form-group col-4 d-inline-block">
+        <label for="Nombre">Nombre:</label>
+        <input type="text" class="form-control" id="Nombre" [(ngModel)]="user.Nombre">
+      </div>
+      <div class="form-group col-4 d-inline-block">
+        <label for="Edad">Edad:</label>
+        <input type="number" class="form-control" id="Edad" [(ngModel)]="user.Edad">
+      </div>
+    </div>
+    <div class="mt-2">
+      <button (click)="agregar()" type="submit" class="btn btn-success m-2">Insertar</button>
+      <button (click)="modificar()" type="submit" class="btn btn-warning m-2">Modificar</button>
+    </div>
+</div>
