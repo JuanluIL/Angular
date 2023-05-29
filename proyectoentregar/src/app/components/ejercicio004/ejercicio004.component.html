@@ -15,31 +15,31 @@
         <th>{{fr.id}}</th>
         <th>{{fr.descripcion}}</th>
         <th>{{fr.precio}}</th>
-        <th><button (click)="baja(fr)" class="btn btn-danger">Borrar</button></th>
+        <th><button (click)="eliminar(fr.id)" class="btn btn-danger">Borrar</button></th>
         <th><button (click)="seleccionar(fr)" class="btn btn-info">Seleccionar</button></th>
       </tr>
     </tbody>
   </table>
-    <div class="form-group col  d-inline-block">
-      <label for="id">ID:</label>
-      <input type="number" class="form-control" id="id" placeholder="0" [(ngModel)]="fruta.id">
+  <div class="form-group mb-3">
+    <!--
+    <div class="form-group col">
+      <label for="id" class="form-label">ID:</label>
+      <input type="number" class="form-control" id="id" placeholder="0" name="id" [(ngModel)]="fruta.id">
     </div>
-    <div class="form-group col  d-inline-block">
-      <label for="Email">Descripción:</label>
-      <input type="email" class="form-control" id="Email" [(ngModel)]="fruta.descripcion">
-    </div>
-    <div class="form-group col  d-inline-block">
-      <label for="Idioma">Precio:</label>
-      <input type="text" class="form-control" id="Idioma" [(ngModel)]="fruta.precio">
-    </div>
+    -->
 
-
+    <div class="form-group col">
+      <label for="Email" class="form-label">Descripción:</label>
+      <input type="email" class="form-control" id="Email" name="email" [(ngModel)]="fruta.descripcion">
+    </div>
+    <div class="form-group col">
+      <label for="Idioma" class="form-label">Precio:</label>
+      <input type="text" class="form-control" id="Idioma" name="idioma" [(ngModel)]="fruta.precio">
+    </div>
   </div>
 
-  <!--
-<div class="mt-2">
-    <button (click)="agregar()" type="submit" class="btn btn-success m-2">Insertar</button>
-    <button (click)="‘modificacion()" type="submit" class="btn btn-warning m-2">Modificar</button>
+  <button (click)="insertar()" type="submit" class="btn btn-success me-2">Insertar</button>
+  <button (click)="modificar(fruta.id)" type="submit" class="btn btn-warning m-2">Modificar</button>
+
   </div>
-  -->
 
